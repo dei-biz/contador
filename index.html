@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es"> 
+<head> 
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<link rel="stylesheet" href="contador.css" type="text/css" />
+
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="contador.js"></script>
+
+<title>Contador DEMO</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<script>
+$(function() {
+ $('.valor_medida').contador();
+});
+</script>
+</head>
+<body>
+
+	
+		<ul>
+			<li>
+				<input data-minimo="46" data-maximo="56" data-intervalo="2" data-unidades="cm" class="valor_medida" type="text" value="52" />
+			</li>
+			<li>
+				<input data-minimo= "-5" data-maximo="25" data-intervalo="5" data-unidades="mm" class="valor_medida" type="text" value="10" />
+			</li>
+			<li >
+				<input class="valor_medida" type="text" value="4" />
+			</li>
+			<li >
+				<input class="valor_medida" type="text" data-intervalo="5" value="0" />
+			</li>
+			<li>
+				<input class="valor_medida" type="text" value="0" />
+			</li>
+			<li>
+				<input class="valor_medida" type="text" data-unidades="Kelvin" value="0" />
+			</li>
+		</ul>
+					
+	</div>
+</body>
+</html>

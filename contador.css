@@ -1,0 +1,77 @@
+body{
+	position:fixed;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: sans-serif;
+	color: #474747;
+	-webkit-font-smoothing: antialiased;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+select,input,textarea,button{
+
+	-webkit-appearance:none;
+	-webkit-border-radius: 0;
+	background: none;
+	border: none;
+	color: #fff;
+}
+
+#medidas_valores{
+	width: 100%;
+	position: relative;
+}
+
+ul{
+	list-style-type: none;
+	position:absolute;
+	width: 100%;
+	margin:0;
+	padding:0;
+	display: none;
+}
+
+ul:first-child{
+	display: block;
+}
+
+li{
+	float: left;
+	width:180px;
+	padding: 8px 7px;
+}
+
+li:last-child{
+	border: none;
+}
+
+li .controles_medida{
+	float: right;
+	background-color: #ccc;
+	
+}
+
+li .controles_medida button{
+	float: left;
+	
+}
+
+li .titulo_medida{
+	float: left;
+	padding: 5px 0 0 0;
+}
+
+li .controles_medida .valor_medida{
+	float: left;
+	text-align: center;
+	width: 100px;
+	display: block;
+	padding: 4px 0;
+	margin:0;
+	background-color: #f3f3f3;
+	color: #2b2b2b;
+}
